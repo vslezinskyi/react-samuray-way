@@ -19,6 +19,7 @@ const TasksList = ({ onTaskSelected, onBoardId, selectedTaskId }: Props) => {
     return <p>Задачи отсутствуют</p>;
   }
 
+
   const handleResetClick = () => {
     onTaskSelected(null);
     onBoardId(null);
