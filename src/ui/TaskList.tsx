@@ -24,7 +24,6 @@ const TasksList = ({ onTaskSelected, onBoardId, selectedTaskId }: Props) => {
     onBoardId(null);
   };
 
-  
   const handleSelect = (taskId: string, boardId: string) => {
     onTaskSelected(taskId);
     onBoardId(boardId);
