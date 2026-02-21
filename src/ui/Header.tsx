@@ -1,5 +1,5 @@
 const Header = () => {
-  return <div>Tasks Manager</div>;
+  return <div>Tasks manager</div>;
 };
 
 export default Header;
